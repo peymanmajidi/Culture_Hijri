@@ -1,0 +1,27 @@
+===============================
+ASP.Net MVC Projects
+===============================
+Solution Explorer > Global.asax.cs
+
+  protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            Cultures.InitializePersianCulture(); // <--------------------------
+
+        }
+
+===============================
+C# Projects
+===============================
+Solution Explorer > Program.cs
+
+ 	private static void Main()
+        {
+            Cultures.InitializePersianCulture(); // <--------------------------
+        }	
+
+
