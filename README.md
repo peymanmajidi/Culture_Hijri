@@ -28,7 +28,7 @@ Solution Explorer > Program.cs
 
      private static void Main()
         {
-            Cultures.InitializePersianCulture(); // <--------------------------
+            Cultures.InitializePersianCulture(); // <-------------------------- add this line
         }	
 
 
