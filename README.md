@@ -1,5 +1,5 @@
 # Culture_Hijri
-Persian Calender Convertor simply by initializing a functionin the first line of projects
+Persian Calender Convertor simply by initializing a function in the first line of projects
 Hijri Culture Intialize all C# Projects
 
 This is a wondeful library you can simply add to your c# projects.
